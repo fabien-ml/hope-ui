@@ -1,0 +1,172 @@
+@use "../base/mixins" as *;
+
+$colors: primary, neutral, success, info, warning, danger;
+$variants: solid, soft, outlined, plain;
+
+/* -------------------------------------------------------------------------------------------------
+ * Button
+ * -----------------------------------------------------------------------------------------------*/
+.hope-button {
+  appearance: none;
+  position: relative;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: auto;
+
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+
+  padding: 0;
+
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition-property: color, border-color, background-color, box-shadow;
+  transition-duration: 250ms;
+
+  @include focus-ring;
+
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.hope-button--is-full-width {
+  display: flex;
+  width: 100%;
+}
+
+.hope-button--is-loading {
+  opacity: 0.8;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * Button - size
+ * -----------------------------------------------------------------------------------------------*/
+.hope-button--xs {
+  height: 28px;
+  padding: 0 12px;
+  font-size: 12px;
+}
+
+.hope-button--sm {
+  height: 32px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.hope-button--md {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.hope-button--lg {
+  height: 48px;
+  padding: 0 24px;
+  font-size: 18px;
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * Button - variant
+ * -----------------------------------------------------------------------------------------------*/
+@each $color in $colors {
+  @each $variant in $variants {
+    .hope-button--#{$color}.hope-button--#{$variant} {
+      border-color: var(--hope-colors-#{$color}-#{$variant}-border);
+      background-color: var(--hope-colors-#{$color}-#{$variant}-bg);
+      color: var(--hope-colors-#{$color}-#{$variant}-text);
+
+      &:hover {
+        border-color: var(--hope-colors-#{$color}-#{$variant}-hover-border);
+        background-color: var(--hope-colors-#{$color}-#{$variant}-hover-bg);
+        color: var(--hope-colors-#{$color}-#{$variant}-hover-text);
+      }
+
+      &:active {
+        border-color: var(--hope-colors-#{$color}-#{$variant}-active-border);
+        background-color: var(--hope-colors-#{$color}-#{$variant}-active-bg);
+        color: var(--hope-colors-#{$color}-#{$variant}-active-text);
+      }
+
+      &:disabled {
+        border-color: var(--hope-colors-#{$color}-#{$variant}-disabled-border);
+        background-color: var(--hope-colors-#{$color}-#{$variant}-disabled-bg);
+        color: var(--hope-colors-#{$color}-#{$variant}-disabled-text);
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * ButtonIcon
+ * -----------------------------------------------------------------------------------------------*/
+.hope-button__icon {
+  display: inline-flex;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * ButtonLoader
+ * -----------------------------------------------------------------------------------------------*/
+.hope-button__loader {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 1em;
+  line-height: normal;
+}
+
+.hope-button__loader--with-loading-text {
+  position: relative;
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * Button - default icon spinner
+ * -----------------------------------------------------------------------------------------------*/
+.hope-button__icon-spinner {
+  font-size: 1.3em;
+  animation: 1s linear infinite hope-spin;
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * ButtonGroup
+ * -----------------------------------------------------------------------------------------------*/
+.hope-button__group {
+  display: inline-flex;
+
+  & .hope-button:focus {
+    z-index: 1;
+  }
+
+  & > *:first-of-type:not(:last-of-type) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  & > *:not(:first-of-type):not(:last-of-type) {
+    border-radius: 0;
+  }
+
+  & > *:not(:first-of-type):last-of-type {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}

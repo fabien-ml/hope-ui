@@ -1,0 +1,43 @@
+/* -------------------------------------------------------------------------------------------------
+ * Typography
+ * -----------------------------------------------------------------------------------------------*/
+@mixin text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+
+@mixin text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
+@mixin text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+@mixin text-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+
+@mixin text-xl {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+
+/* -------------------------------------------------------------------------------------------------
+ * Focus ring
+ * -----------------------------------------------------------------------------------------------*/
+@mixin focus-ring {
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline-offset: 2px;
+    outline: 2px solid var(--hope-colors-focus-ring);
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}

@@ -5,6 +5,17 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-a11y",
     "storybook-dark-mode",
+    {
+      name: "storybook-addon-sass-postcss",
+      options: {
+        sassLoaderOptions: {
+          implementation: require("sass"),
+        },
+        postcssLoaderOptions: {
+          implementation: require("postcss"),
+        },
+      },
+    },
   ],
   framework: "@storybook/html",
   core: {

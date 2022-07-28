@@ -48,7 +48,6 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@commitlint/cz-commitlint": "17.0.3",
-    "@emotion/css": "11.9.0",
     "@jest/types": "28.1.1",
     "@testing-library/dom": "8.14.0",
     "@testing-library/jest-dom": "5.16.4",

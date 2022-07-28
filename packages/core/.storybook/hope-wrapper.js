@@ -5,9 +5,7 @@ import { HopeProvider, useColorMode } from "../src";
 
 const channel = addons.getChannel();
 
-/**
- * Utility component to sync Hope UI color mode with storybook-color-mode addon.
- */
+/** Utility component to sync Hope UI color mode with storybook-color-mode addon. */
 function ColorModeWrapper(props) {
   const { setColorMode } = useColorMode();
 
