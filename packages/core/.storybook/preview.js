@@ -42,7 +42,7 @@ export const parameters = {
   },
   darkMode: {
     light: { ...themes.normal, appBg: "#F0F4F8", appContentBg: "#ffffff" },
-    dark: { ...themes.dark, appBg: "#243B53", appContentBg: "#102A43" },
+    dark: { ...themes.dark, appBg: "#323f4b", appContentBg: "#09090D" },
   },
   controls: {
     matchers: {

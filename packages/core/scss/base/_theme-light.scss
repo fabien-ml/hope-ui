@@ -30,48 +30,48 @@
   --hope-colors-primary-solid-active-bg: var(--hope-colors-primary-700);
   --hope-colors-primary-solid-active-border: var(--hope-colors-primary-700);
   --hope-colors-primary-solid-disabled-text: #fff;
-  --hope-colors-primary-solid-disabled-bg: var(--hope-colors-primary-200);
-  --hope-colors-primary-solid-disabled-border: var(--hope-colors-primary-200);
+  --hope-colors-primary-solid-disabled-bg: var(--hope-colors-neutral-200);
+  --hope-colors-primary-solid-disabled-border: var(--hope-colors-neutral-200);
 
   // global variant - soft
-  --hope-colors-primary-soft-text: var(--hope-colors-primary-600);
-  --hope-colors-primary-soft-bg: var(--hope-colors-primary-100);
-  --hope-colors-primary-soft-border: var(--hope-colors-primary-100);
-  --hope-colors-primary-soft-hover-text: var(--hope-colors-primary-600);
-  --hope-colors-primary-soft-hover-bg: var(--hope-colors-primary-200);
-  --hope-colors-primary-soft-hover-border: var(--hope-colors-primary-200);
-  --hope-colors-primary-soft-active-text: var(--hope-colors-primary-600);
-  --hope-colors-primary-soft-active-bg: var(--hope-colors-primary-300);
-  --hope-colors-primary-soft-active-border: var(--hope-colors-primary-300);
-  --hope-colors-primary-soft-disabled-text: var(--hope-colors-primary-300);
-  --hope-colors-primary-soft-disabled-bg: var(--hope-colors-primary-50);
-  --hope-colors-primary-soft-disabled-border: var(--hope-colors-primary-50);
+  --hope-colors-primary-soft-text: var(--hope-colors-primary-700);
+  --hope-colors-primary-soft-bg: var(--hope-colors-primary-50);
+  --hope-colors-primary-soft-border: var(--hope-colors-primary-50);
+  --hope-colors-primary-soft-hover-text: var(--hope-colors-primary-700);
+  --hope-colors-primary-soft-hover-bg: var(--hope-colors-primary-100);
+  --hope-colors-primary-soft-hover-border: var(--hope-colors-primary-100);
+  --hope-colors-primary-soft-active-text: var(--hope-colors-primary-700);
+  --hope-colors-primary-soft-active-bg: var(--hope-colors-primary-200);
+  --hope-colors-primary-soft-active-border: var(--hope-colors-primary-200);
+  --hope-colors-primary-soft-disabled-text: var(--hope-colors-neutral-300);
+  --hope-colors-primary-soft-disabled-bg: var(--hope-colors-neutral-50);
+  --hope-colors-primary-soft-disabled-border: var(--hope-colors-neutral-50);
 
   // global variant - outlined
-  --hope-colors-primary-outlined-text: var(--hope-colors-primary-500);
+  --hope-colors-primary-outlined-text: var(--hope-colors-primary-600);
   --hope-colors-primary-outlined-bg: transparent;
   --hope-colors-primary-outlined-border: var(--hope-colors-primary-200);
-  --hope-colors-primary-outlined-hover-text: var(--hope-colors-primary-500);
-  --hope-colors-primary-outlined-hover-bg: var(--hope-colors-primary-100);
+  --hope-colors-primary-outlined-hover-text: var(--hope-colors-primary-600);
+  --hope-colors-primary-outlined-hover-bg: var(--hope-colors-primary-50);
   --hope-colors-primary-outlined-hover-border: var(--hope-colors-primary-300);
-  --hope-colors-primary-outlined-active-text: var(--hope-colors-primary-500);
-  --hope-colors-primary-outlined-active-bg: var(--hope-colors-primary-200);
+  --hope-colors-primary-outlined-active-text: var(--hope-colors-primary-600);
+  --hope-colors-primary-outlined-active-bg: var(--hope-colors-primary-100);
   --hope-colors-primary-outlined-active-border: var(--hope-colors-primary-300);
-  --hope-colors-primary-outlined-disabled-text: var(--hope-colors-primary-100);
+  --hope-colors-primary-outlined-disabled-text: var(--hope-colors-neutral-100);
   --hope-colors-primary-outlined-disabled-bg: transparent;
-  --hope-colors-primary-outlined-disabled-border: var(--hope-colors-primary-100);
+  --hope-colors-primary-outlined-disabled-border: var(--hope-colors-neutral-100);
 
   // global variant - plain
-  --hope-colors-primary-plain-text: var(--hope-colors-primary-600);
+  --hope-colors-primary-plain-text: var(--hope-colors-primary-700);
   --hope-colors-primary-plain-bg: transparent;
   --hope-colors-primary-plain-border: transparent;
-  --hope-colors-primary-plain-hover-text: var(--hope-colors-primary-600);
-  --hope-colors-primary-plain-hover-bg: var(--hope-colors-primary-100);
-  --hope-colors-primary-plain-hover-border: var(--hope-colors-primary-100);
-  --hope-colors-primary-plain-active-text: var(--hope-colors-primary-600);
-  --hope-colors-primary-plain-active-bg: var(--hope-colors-primary-200);
-  --hope-colors-primary-plain-active-border: var(--hope-colors-primary-200);
-  --hope-colors-primary-plain-disabled-text: var(--hope-colors-primary-200);
+  --hope-colors-primary-plain-hover-text: var(--hope-colors-primary-700);
+  --hope-colors-primary-plain-hover-bg: var(--hope-colors-primary-50);
+  --hope-colors-primary-plain-hover-border: var(--hope-colors-primary-50);
+  --hope-colors-primary-plain-active-text: var(--hope-colors-primary-700);
+  --hope-colors-primary-plain-active-bg: var(--hope-colors-primary-100);
+  --hope-colors-primary-plain-active-border: var(--hope-colors-primary-100);
+  --hope-colors-primary-plain-disabled-text: var(--hope-colors-neutral-200);
   --hope-colors-primary-plain-disabled-bg: transparent;
   --hope-colors-primary-plain-disabled-border: transparent;
 
@@ -81,85 +81,85 @@
   --hope-colors-primary-override-text-tertiary: var(--hope-colors-primary-400);
 
   /* -------------------------------------------------------------------------------------------------
-   * Neutral color (Blue gray)
+   * Neutral color (Grey)
    * -----------------------------------------------------------------------------------------------*/
   // palette
-  --hope-colors-neutral-50: #f0f4f8;
-  --hope-colors-neutral-100: #d9e2ec;
-  --hope-colors-neutral-200: #bcccdc;
-  --hope-colors-neutral-300: #9fb3c8;
-  --hope-colors-neutral-400: #829ab1;
-  --hope-colors-neutral-500: #627d98;
-  --hope-colors-neutral-600: #486581;
-  --hope-colors-neutral-700: #334e68;
-  --hope-colors-neutral-800: #243b53;
-  --hope-colors-neutral-900: #102a43;
+  --hope-colors-neutral-50: #f7f7f7;
+  --hope-colors-neutral-100: #e1e1e1;
+  --hope-colors-neutral-200: #cfcfcf;
+  --hope-colors-neutral-300: #b1b1b1;
+  --hope-colors-neutral-400: #9e9e9e;
+  --hope-colors-neutral-500: #7e7e7e;
+  --hope-colors-neutral-600: #626262;
+  --hope-colors-neutral-700: #515151;
+  --hope-colors-neutral-800: #3b3b3b;
+  --hope-colors-neutral-900: #222222;
 
   // rgb channel
-  --hope-colors-neutral-main-channel: 98 125 152; // 500
-  --hope-colors-neutral-light-channel: 217 226 236; // 100
-  --hope-colors-neutral-dark-channel: 16 42 67; // 900
+  --hope-colors-neutral-main-channel: 126 126 126; // 500
+  --hope-colors-neutral-light-channel: 225 225 225; // 100
+  --hope-colors-neutral-dark-channel: 34 34 34; // 900
 
   // global variant - solid
-  --hope-colors-neutral-solid-text: var(--hope-colors-);
-  --hope-colors-neutral-solid-bg: var(--hope-colors-);
-  --hope-colors-neutral-solid-border: var(--hope-colors-);
-  --hope-colors-neutral-solid-hover-text: var(--hope-colors-);
-  --hope-colors-neutral-solid-hover-bg: var(--hope-colors-);
-  --hope-colors-neutral-solid-hover-border: var(--hope-colors-);
-  --hope-colors-neutral-solid-active-text: var(--hope-colors-);
-  --hope-colors-neutral-solid-active-bg: var(--hope-colors-);
-  --hope-colors-neutral-solid-active-border: var(--hope-colors-);
-  --hope-colors-neutral-solid-disabled-text: var(--hope-colors-);
-  --hope-colors-neutral-solid-disabled-bg: var(--hope-colors-);
-  --hope-colors-neutral-solid-disabled-border: var(--hope-colors-);
+  --hope-colors-neutral-solid-text: #fff;
+  --hope-colors-neutral-solid-bg: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-solid-border: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-solid-hover-text: #fff;
+  --hope-colors-neutral-solid-hover-bg: var(--hope-colors-neutral-800);
+  --hope-colors-neutral-solid-hover-border: var(--hope-colors-neutral-800);
+  --hope-colors-neutral-solid-active-text: #fff;
+  --hope-colors-neutral-solid-active-bg: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-solid-active-border: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-solid-disabled-text: #fff;
+  --hope-colors-neutral-solid-disabled-bg: var(--hope-colors-neutral-200);
+  --hope-colors-neutral-solid-disabled-border: var(--hope-colors-neutral-200);
 
   // global variant - soft
-  --hope-colors-neutral-soft-text: var(--hope-colors-);
-  --hope-colors-neutral-soft-bg: var(--hope-colors-);
-  --hope-colors-neutral-soft-border: var(--hope-colors-);
-  --hope-colors-neutral-soft-hover-text: var(--hope-colors-);
-  --hope-colors-neutral-soft-hover-bg: var(--hope-colors-);
-  --hope-colors-neutral-soft-hover-border: var(--hope-colors-);
-  --hope-colors-neutral-soft-active-text: var(--hope-colors-);
-  --hope-colors-neutral-soft-active-bg: var(--hope-colors-);
-  --hope-colors-neutral-soft-active-border: var(--hope-colors-);
-  --hope-colors-neutral-soft-disabled-text: var(--hope-colors-);
-  --hope-colors-neutral-soft-disabled-bg: var(--hope-colors-);
-  --hope-colors-neutral-soft-disabled-border: var(--hope-colors-);
+  --hope-colors-neutral-soft-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-soft-bg: var(--hope-colors-neutral-100);
+  --hope-colors-neutral-soft-border: var(--hope-colors-neutral-100);
+  --hope-colors-neutral-soft-hover-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-soft-hover-bg: var(--hope-colors-neutral-200);
+  --hope-colors-neutral-soft-hover-border: var(--hope-colors-neutral-200);
+  --hope-colors-neutral-soft-active-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-soft-active-bg: var(--hope-colors-neutral-300);
+  --hope-colors-neutral-soft-active-border: var(--hope-colors-neutral-300);
+  --hope-colors-neutral-soft-disabled-text: var(--hope-colors-neutral-300);
+  --hope-colors-neutral-soft-disabled-bg: var(--hope-colors-neutral-50);
+  --hope-colors-neutral-soft-disabled-border: var(--hope-colors-neutral-50);
 
   // global variant - outlined
-  --hope-colors-neutral-outlined-text: var(--hope-colors-);
-  --hope-colors-neutral-outlined-bg: var(--hope-colors-);
-  --hope-colors-neutral-outlined-border: var(--hope-colors-);
-  --hope-colors-neutral-outlined-hover-text: var(--hope-colors-);
-  --hope-colors-neutral-outlined-hover-bg: var(--hope-colors-);
-  --hope-colors-neutral-outlined-hover-border: var(--hope-colors-);
-  --hope-colors-neutral-outlined-active-text: var(--hope-colors-);
-  --hope-colors-neutral-outlined-active-bg: var(--hope-colors-);
-  --hope-colors-neutral-outlined-active-border: var(--hope-colors-);
-  --hope-colors-neutral-outlined-disabled-text: var(--hope-colors-);
-  --hope-colors-neutral-outlined-disabled-bg: var(--hope-colors-);
-  --hope-colors-neutral-outlined-disabled-border: var(--hope-colors-);
+  --hope-colors-neutral-outlined-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-outlined-bg: transparent;
+  --hope-colors-neutral-outlined-border: var(--hope-colors-neutral-200);
+  --hope-colors-neutral-outlined-hover-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-outlined-hover-bg: var(--hope-colors-neutral-50);
+  --hope-colors-neutral-outlined-hover-border: var(--hope-colors-neutral-300);
+  --hope-colors-neutral-outlined-active-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-outlined-active-bg: var(--hope-colors-neutral-100);
+  --hope-colors-neutral-outlined-active-border: var(--hope-colors-neutral-300);
+  --hope-colors-neutral-outlined-disabled-text: var(--hope-colors-neutral-100);
+  --hope-colors-neutral-outlined-disabled-bg: transparent;
+  --hope-colors-neutral-outlined-disabled-border: var(--hope-colors-neutral-100);
 
   // global variant - plain
-  --hope-colors-neutral-plain-text: var(--hope-colors-);
-  --hope-colors-neutral-plain-bg: var(--hope-colors-);
-  --hope-colors-neutral-plain-border: var(--hope-colors-);
-  --hope-colors-neutral-plain-hover-text: var(--hope-colors-);
-  --hope-colors-neutral-plain-hover-bg: var(--hope-colors-);
-  --hope-colors-neutral-plain-hover-border: var(--hope-colors-);
-  --hope-colors-neutral-plain-active-text: var(--hope-colors-);
-  --hope-colors-neutral-plain-active-bg: var(--hope-colors-);
-  --hope-colors-neutral-plain-active-border: var(--hope-colors-);
-  --hope-colors-neutral-plain-disabled-text: var(--hope-colors-);
-  --hope-colors-neutral-plain-disabled-bg: var(--hope-colors-);
-  --hope-colors-neutral-plain-disabled-border: var(--hope-colors-);
+  --hope-colors-neutral-plain-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-plain-bg: transparent;
+  --hope-colors-neutral-plain-border: transparent;
+  --hope-colors-neutral-plain-hover-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-plain-hover-bg: var(--hope-colors-neutral-50);
+  --hope-colors-neutral-plain-hover-border: var(--hope-colors-neutral-50);
+  --hope-colors-neutral-plain-active-text: var(--hope-colors-neutral-900);
+  --hope-colors-neutral-plain-active-bg: var(--hope-colors-neutral-100);
+  --hope-colors-neutral-plain-active-border: var(--hope-colors-neutral-100);
+  --hope-colors-neutral-plain-disabled-text: var(--hope-colors-neutral-200);
+  --hope-colors-neutral-plain-disabled-bg: transparent;
+  --hope-colors-neutral-plain-disabled-border: transparent;
 
   // global variant - override text
-  --hope-colors-neutral-override-text-primary: var(--hope-colors-);
-  --hope-colors-neutral-override-text-secondary: var(--hope-colors-);
-  --hope-colors-neutral-override-text-tertiary: var(--hope-colors-);
+  --hope-colors-neutral-override-text-primary: var(--hope-colors-neutral-700);
+  --hope-colors-neutral-override-text-secondary: var(--hope-colors-neutral-500);
+  --hope-colors-neutral-override-text-tertiary: var(--hope-colors-neutral-400);
 
   /* -------------------------------------------------------------------------------------------------
    * Success color (Green)
@@ -182,65 +182,65 @@
   --hope-colors-success-dark-channel: 5 64 10; // 900
 
   // global variant - solid
-  --hope-colors-success-solid-text: var(--hope-colors-);
-  --hope-colors-success-solid-bg: var(--hope-colors-);
-  --hope-colors-success-solid-border: var(--hope-colors-);
-  --hope-colors-success-solid-hover-text: var(--hope-colors-);
-  --hope-colors-success-solid-hover-bg: var(--hope-colors-);
-  --hope-colors-success-solid-hover-border: var(--hope-colors-);
-  --hope-colors-success-solid-active-text: var(--hope-colors-);
-  --hope-colors-success-solid-active-bg: var(--hope-colors-);
-  --hope-colors-success-solid-active-border: var(--hope-colors-);
-  --hope-colors-success-solid-disabled-text: var(--hope-colors-);
-  --hope-colors-success-solid-disabled-bg: var(--hope-colors-);
-  --hope-colors-success-solid-disabled-border: var(--hope-colors-);
+  --hope-colors-success-solid-text: #fff;
+  --hope-colors-success-solid-bg: var(--hope-colors-success-600);
+  --hope-colors-success-solid-border: var(--hope-colors-success-600);
+  --hope-colors-success-solid-hover-text: #fff;
+  --hope-colors-success-solid-hover-bg: var(--hope-colors-success-700);
+  --hope-colors-success-solid-hover-border: var(--hope-colors-success-700);
+  --hope-colors-success-solid-active-text: #fff;
+  --hope-colors-success-solid-active-bg: var(--hope-colors-success-800);
+  --hope-colors-success-solid-active-border: var(--hope-colors-success-800);
+  --hope-colors-success-solid-disabled-text: #fff;
+  --hope-colors-success-solid-disabled-bg: var(--hope-colors-neutral-200);
+  --hope-colors-success-solid-disabled-border: var(--hope-colors-neutral-200);
 
   // global variant - soft
-  --hope-colors-success-soft-text: var(--hope-colors-);
-  --hope-colors-success-soft-bg: var(--hope-colors-);
-  --hope-colors-success-soft-border: var(--hope-colors-);
-  --hope-colors-success-soft-hover-text: var(--hope-colors-);
-  --hope-colors-success-soft-hover-bg: var(--hope-colors-);
-  --hope-colors-success-soft-hover-border: var(--hope-colors-);
-  --hope-colors-success-soft-active-text: var(--hope-colors-);
-  --hope-colors-success-soft-active-bg: var(--hope-colors-);
-  --hope-colors-success-soft-active-border: var(--hope-colors-);
-  --hope-colors-success-soft-disabled-text: var(--hope-colors-);
-  --hope-colors-success-soft-disabled-bg: var(--hope-colors-);
-  --hope-colors-success-soft-disabled-border: var(--hope-colors-);
+  --hope-colors-success-soft-text: var(--hope-colors-success-700);
+  --hope-colors-success-soft-bg: var(--hope-colors-success-50);
+  --hope-colors-success-soft-border: var(--hope-colors-success-50);
+  --hope-colors-success-soft-hover-text: var(--hope-colors-success-700);
+  --hope-colors-success-soft-hover-bg: var(--hope-colors-success-100);
+  --hope-colors-success-soft-hover-border: var(--hope-colors-success-100);
+  --hope-colors-success-soft-active-text: var(--hope-colors-success-700);
+  --hope-colors-success-soft-active-bg: var(--hope-colors-success-200);
+  --hope-colors-success-soft-active-border: var(--hope-colors-success-200);
+  --hope-colors-success-soft-disabled-text: var(--hope-colors-neutral-300);
+  --hope-colors-success-soft-disabled-bg: var(--hope-colors-neutral-50);
+  --hope-colors-success-soft-disabled-border: var(--hope-colors-neutral-50);
 
   // global variant - outlined
-  --hope-colors-success-outlined-text: var(--hope-colors-);
-  --hope-colors-success-outlined-bg: var(--hope-colors-);
-  --hope-colors-success-outlined-border: var(--hope-colors-);
-  --hope-colors-success-outlined-hover-text: var(--hope-colors-);
-  --hope-colors-success-outlined-hover-bg: var(--hope-colors-);
-  --hope-colors-success-outlined-hover-border: var(--hope-colors-);
-  --hope-colors-success-outlined-active-text: var(--hope-colors-);
-  --hope-colors-success-outlined-active-bg: var(--hope-colors-);
-  --hope-colors-success-outlined-active-border: var(--hope-colors-);
-  --hope-colors-success-outlined-disabled-text: var(--hope-colors-);
-  --hope-colors-success-outlined-disabled-bg: var(--hope-colors-);
-  --hope-colors-success-outlined-disabled-border: var(--hope-colors-);
+  --hope-colors-success-outlined-text: var(--hope-colors-success-600);
+  --hope-colors-success-outlined-bg: transparent;
+  --hope-colors-success-outlined-border: var(--hope-colors-success-200);
+  --hope-colors-success-outlined-hover-text: var(--hope-colors-success-600);
+  --hope-colors-success-outlined-hover-bg: var(--hope-colors-success-50);
+  --hope-colors-success-outlined-hover-border: var(--hope-colors-success-300);
+  --hope-colors-success-outlined-active-text: var(--hope-colors-success-600);
+  --hope-colors-success-outlined-active-bg: var(--hope-colors-success-100);
+  --hope-colors-success-outlined-active-border: var(--hope-colors-success-300);
+  --hope-colors-success-outlined-disabled-text: var(--hope-colors-neutral-100);
+  --hope-colors-success-outlined-disabled-bg: transparent;
+  --hope-colors-success-outlined-disabled-border: var(--hope-colors-neutral-100);
 
   // global variant - plain
-  --hope-colors-success-plain-text: var(--hope-colors-);
-  --hope-colors-success-plain-bg: var(--hope-colors-);
-  --hope-colors-success-plain-border: var(--hope-colors-);
-  --hope-colors-success-plain-hover-text: var(--hope-colors-);
-  --hope-colors-success-plain-hover-bg: var(--hope-colors-);
-  --hope-colors-success-plain-hover-border: var(--hope-colors-);
-  --hope-colors-success-plain-active-text: var(--hope-colors-);
-  --hope-colors-success-plain-active-bg: var(--hope-colors-);
-  --hope-colors-success-plain-active-border: var(--hope-colors-);
-  --hope-colors-success-plain-disabled-text: var(--hope-colors-);
-  --hope-colors-success-plain-disabled-bg: var(--hope-colors-);
-  --hope-colors-success-plain-disabled-border: var(--hope-colors-);
+  --hope-colors-success-plain-text: var(--hope-colors-success-700);
+  --hope-colors-success-plain-bg: transparent;
+  --hope-colors-success-plain-border: transparent;
+  --hope-colors-success-plain-hover-text: var(--hope-colors-success-700);
+  --hope-colors-success-plain-hover-bg: var(--hope-colors-success-50);
+  --hope-colors-success-plain-hover-border: var(--hope-colors-success-50);
+  --hope-colors-success-plain-active-text: var(--hope-colors-success-700);
+  --hope-colors-success-plain-active-bg: var(--hope-colors-success-100);
+  --hope-colors-success-plain-active-border: var(--hope-colors-success-100);
+  --hope-colors-success-plain-disabled-text: var(--hope-colors-neutral-200);
+  --hope-colors-success-plain-disabled-bg: transparent;
+  --hope-colors-success-plain-disabled-border: transparent;
 
   // global variant - override text
-  --hope-colors-success-override-text-primary: var(--hope-colors-);
-  --hope-colors-success-override-text-secondary: var(--hope-colors-);
-  --hope-colors-success-override-text-tertiary: var(--hope-colors-);
+  --hope-colors-success-override-text-primary: var(--hope-colors-success-700);
+  --hope-colors-success-override-text-secondary: var(--hope-colors-success-500);
+  --hope-colors-success-override-text-tertiary: var(--hope-colors-success-400);
 
   /* -------------------------------------------------------------------------------------------------
    * Info color (Purple)
@@ -263,65 +263,65 @@
   --hope-colors-info-dark-channel: 36 7 84; // 900
 
   // global variant - solid
-  --hope-colors-info-solid-text: var(--hope-colors-);
-  --hope-colors-info-solid-bg: var(--hope-colors-);
-  --hope-colors-info-solid-border: var(--hope-colors-);
-  --hope-colors-info-solid-hover-text: var(--hope-colors-);
-  --hope-colors-info-solid-hover-bg: var(--hope-colors-);
-  --hope-colors-info-solid-hover-border: var(--hope-colors-);
-  --hope-colors-info-solid-active-text: var(--hope-colors-);
-  --hope-colors-info-solid-active-bg: var(--hope-colors-);
-  --hope-colors-info-solid-active-border: var(--hope-colors-);
-  --hope-colors-info-solid-disabled-text: var(--hope-colors-);
-  --hope-colors-info-solid-disabled-bg: var(--hope-colors-);
-  --hope-colors-info-solid-disabled-border: var(--hope-colors-);
+  --hope-colors-info-solid-text: #fff;
+  --hope-colors-info-solid-bg: var(--hope-colors-info-500);
+  --hope-colors-info-solid-border: var(--hope-colors-info-500);
+  --hope-colors-info-solid-hover-text: #fff;
+  --hope-colors-info-solid-hover-bg: var(--hope-colors-info-600);
+  --hope-colors-info-solid-hover-border: var(--hope-colors-info-600);
+  --hope-colors-info-solid-active-text: #fff;
+  --hope-colors-info-solid-active-bg: var(--hope-colors-info-700);
+  --hope-colors-info-solid-active-border: var(--hope-colors-info-700);
+  --hope-colors-info-solid-disabled-text: #fff;
+  --hope-colors-info-solid-disabled-bg: var(--hope-colors-neutral-200);
+  --hope-colors-info-solid-disabled-border: var(--hope-colors-neutral-200);
 
   // global variant - soft
-  --hope-colors-info-soft-text: var(--hope-colors-);
-  --hope-colors-info-soft-bg: var(--hope-colors-);
-  --hope-colors-info-soft-border: var(--hope-colors-);
-  --hope-colors-info-soft-hover-text: var(--hope-colors-);
-  --hope-colors-info-soft-hover-bg: var(--hope-colors-);
-  --hope-colors-info-soft-hover-border: var(--hope-colors-);
-  --hope-colors-info-soft-active-text: var(--hope-colors-);
-  --hope-colors-info-soft-active-bg: var(--hope-colors-);
-  --hope-colors-info-soft-active-border: var(--hope-colors-);
-  --hope-colors-info-soft-disabled-text: var(--hope-colors-);
-  --hope-colors-info-soft-disabled-bg: var(--hope-colors-);
-  --hope-colors-info-soft-disabled-border: var(--hope-colors-);
+  --hope-colors-info-soft-text: var(--hope-colors-info-700);
+  --hope-colors-info-soft-bg: var(--hope-colors-info-50);
+  --hope-colors-info-soft-border: var(--hope-colors-info-50);
+  --hope-colors-info-soft-hover-text: var(--hope-colors-info-700);
+  --hope-colors-info-soft-hover-bg: var(--hope-colors-info-100);
+  --hope-colors-info-soft-hover-border: var(--hope-colors-info-100);
+  --hope-colors-info-soft-active-text: var(--hope-colors-info-700);
+  --hope-colors-info-soft-active-bg: var(--hope-colors-info-200);
+  --hope-colors-info-soft-active-border: var(--hope-colors-info-200);
+  --hope-colors-info-soft-disabled-text: var(--hope-colors-neutral-300);
+  --hope-colors-info-soft-disabled-bg: var(--hope-colors-neutral-50);
+  --hope-colors-info-soft-disabled-border: var(--hope-colors-neutral-50);
 
   // global variant - outlined
-  --hope-colors-info-outlined-text: var(--hope-colors-);
-  --hope-colors-info-outlined-bg: var(--hope-colors-);
-  --hope-colors-info-outlined-border: var(--hope-colors-);
-  --hope-colors-info-outlined-hover-text: var(--hope-colors-);
-  --hope-colors-info-outlined-hover-bg: var(--hope-colors-);
-  --hope-colors-info-outlined-hover-border: var(--hope-colors-);
-  --hope-colors-info-outlined-active-text: var(--hope-colors-);
-  --hope-colors-info-outlined-active-bg: var(--hope-colors-);
-  --hope-colors-info-outlined-active-border: var(--hope-colors-);
-  --hope-colors-info-outlined-disabled-text: var(--hope-colors-);
-  --hope-colors-info-outlined-disabled-bg: var(--hope-colors-);
-  --hope-colors-info-outlined-disabled-border: var(--hope-colors-);
+  --hope-colors-info-outlined-text: var(--hope-colors-info-600);
+  --hope-colors-info-outlined-bg: transparent;
+  --hope-colors-info-outlined-border: var(--hope-colors-info-200);
+  --hope-colors-info-outlined-hover-text: var(--hope-colors-info-600);
+  --hope-colors-info-outlined-hover-bg: var(--hope-colors-info-50);
+  --hope-colors-info-outlined-hover-border: var(--hope-colors-info-300);
+  --hope-colors-info-outlined-active-text: var(--hope-colors-info-600);
+  --hope-colors-info-outlined-active-bg: var(--hope-colors-info-100);
+  --hope-colors-info-outlined-active-border: var(--hope-colors-info-300);
+  --hope-colors-info-outlined-disabled-text: var(--hope-colors-neutral-100);
+  --hope-colors-info-outlined-disabled-bg: transparent;
+  --hope-colors-info-outlined-disabled-border: var(--hope-colors-neutral-100);
 
   // global variant - plain
-  --hope-colors-info-plain-text: var(--hope-colors-);
-  --hope-colors-info-plain-bg: var(--hope-colors-);
-  --hope-colors-info-plain-border: var(--hope-colors-);
-  --hope-colors-info-plain-hover-text: var(--hope-colors-);
-  --hope-colors-info-plain-hover-bg: var(--hope-colors-);
-  --hope-colors-info-plain-hover-border: var(--hope-colors-);
-  --hope-colors-info-plain-active-text: var(--hope-colors-);
-  --hope-colors-info-plain-active-bg: var(--hope-colors-);
-  --hope-colors-info-plain-active-border: var(--hope-colors-);
-  --hope-colors-info-plain-disabled-text: var(--hope-colors-);
-  --hope-colors-info-plain-disabled-bg: var(--hope-colors-);
-  --hope-colors-info-plain-disabled-border: var(--hope-colors-);
+  --hope-colors-info-plain-text: var(--hope-colors-info-700);
+  --hope-colors-info-plain-bg: transparent;
+  --hope-colors-info-plain-border: transparent;
+  --hope-colors-info-plain-hover-text: var(--hope-colors-info-700);
+  --hope-colors-info-plain-hover-bg: var(--hope-colors-info-50);
+  --hope-colors-info-plain-hover-border: var(--hope-colors-info-50);
+  --hope-colors-info-plain-active-text: var(--hope-colors-info-700);
+  --hope-colors-info-plain-active-bg: var(--hope-colors-info-100);
+  --hope-colors-info-plain-active-border: var(--hope-colors-info-100);
+  --hope-colors-info-plain-disabled-text: var(--hope-colors-neutral-200);
+  --hope-colors-info-plain-disabled-bg: transparent;
+  --hope-colors-info-plain-disabled-border: transparent;
 
   // global variant - override text
-  --hope-colors-info-override-text-primary: var(--hope-colors-);
-  --hope-colors-info-override-text-secondary: var(--hope-colors-);
-  --hope-colors-info-override-text-tertiary: var(--hope-colors-);
+  --hope-colors-info-override-text-primary: var(--hope-colors-info-700);
+  --hope-colors-info-override-text-secondary: var(--hope-colors-info-500);
+  --hope-colors-info-override-text-tertiary: var(--hope-colors-info-400);
 
   /* -------------------------------------------------------------------------------------------------
    * Warning color (Yellow vivid)
@@ -344,65 +344,65 @@
   --hope-colors-warning-dark-channel: 141 43 11; // 900
 
   // global variant - solid
-  --hope-colors-warning-solid-text: var(--hope-colors-);
-  --hope-colors-warning-solid-bg: var(--hope-colors-);
-  --hope-colors-warning-solid-border: var(--hope-colors-);
-  --hope-colors-warning-solid-hover-text: var(--hope-colors-);
-  --hope-colors-warning-solid-hover-bg: var(--hope-colors-);
-  --hope-colors-warning-solid-hover-border: var(--hope-colors-);
-  --hope-colors-warning-solid-active-text: var(--hope-colors-);
-  --hope-colors-warning-solid-active-bg: var(--hope-colors-);
-  --hope-colors-warning-solid-active-border: var(--hope-colors-);
-  --hope-colors-warning-solid-disabled-text: var(--hope-colors-);
-  --hope-colors-warning-solid-disabled-bg: var(--hope-colors-);
-  --hope-colors-warning-solid-disabled-border: var(--hope-colors-);
+  --hope-colors-warning-solid-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-solid-bg: var(--hope-colors-warning-300);
+  --hope-colors-warning-solid-border: var(--hope-colors-warning-300);
+  --hope-colors-warning-solid-hover-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-solid-hover-bg: var(--hope-colors-warning-400);
+  --hope-colors-warning-solid-hover-border: var(--hope-colors-warning-400);
+  --hope-colors-warning-solid-active-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-solid-active-bg: var(--hope-colors-warning-500);
+  --hope-colors-warning-solid-active-border: var(--hope-colors-warning-500);
+  --hope-colors-warning-solid-disabled-text: #fff;
+  --hope-colors-warning-solid-disabled-bg: var(--hope-colors-neutral-200);
+  --hope-colors-warning-solid-disabled-border: var(--hope-colors-neutral-200);
 
   // global variant - soft
-  --hope-colors-warning-soft-text: var(--hope-colors-);
-  --hope-colors-warning-soft-bg: var(--hope-colors-);
-  --hope-colors-warning-soft-border: var(--hope-colors-);
-  --hope-colors-warning-soft-hover-text: var(--hope-colors-);
-  --hope-colors-warning-soft-hover-bg: var(--hope-colors-);
-  --hope-colors-warning-soft-hover-border: var(--hope-colors-);
-  --hope-colors-warning-soft-active-text: var(--hope-colors-);
-  --hope-colors-warning-soft-active-bg: var(--hope-colors-);
-  --hope-colors-warning-soft-active-border: var(--hope-colors-);
-  --hope-colors-warning-soft-disabled-text: var(--hope-colors-);
-  --hope-colors-warning-soft-disabled-bg: var(--hope-colors-);
-  --hope-colors-warning-soft-disabled-border: var(--hope-colors-);
+  --hope-colors-warning-soft-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-soft-bg: var(--hope-colors-warning-100);
+  --hope-colors-warning-soft-border: var(--hope-colors-warning-100);
+  --hope-colors-warning-soft-hover-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-soft-hover-bg: var(--hope-colors-warning-200);
+  --hope-colors-warning-soft-hover-border: var(--hope-colors-warning-200);
+  --hope-colors-warning-soft-active-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-soft-active-bg: var(--hope-colors-warning-300);
+  --hope-colors-warning-soft-active-border: var(--hope-colors-warning-300);
+  --hope-colors-warning-soft-disabled-text: var(--hope-colors-neutral-300);
+  --hope-colors-warning-soft-disabled-bg: var(--hope-colors-neutral-50);
+  --hope-colors-warning-soft-disabled-border: var(--hope-colors-neutral-50);
 
   // global variant - outlined
-  --hope-colors-warning-outlined-text: var(--hope-colors-);
-  --hope-colors-warning-outlined-bg: var(--hope-colors-);
-  --hope-colors-warning-outlined-border: var(--hope-colors-);
-  --hope-colors-warning-outlined-hover-text: var(--hope-colors-);
-  --hope-colors-warning-outlined-hover-bg: var(--hope-colors-);
-  --hope-colors-warning-outlined-hover-border: var(--hope-colors-);
-  --hope-colors-warning-outlined-active-text: var(--hope-colors-);
-  --hope-colors-warning-outlined-active-bg: var(--hope-colors-);
-  --hope-colors-warning-outlined-active-border: var(--hope-colors-);
-  --hope-colors-warning-outlined-disabled-text: var(--hope-colors-);
-  --hope-colors-warning-outlined-disabled-bg: var(--hope-colors-);
-  --hope-colors-warning-outlined-disabled-border: var(--hope-colors-);
+  --hope-colors-warning-outlined-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-outlined-bg: transparent;
+  --hope-colors-warning-outlined-border: var(--hope-colors-warning-300);
+  --hope-colors-warning-outlined-hover-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-outlined-hover-bg: var(--hope-colors-warning-50);
+  --hope-colors-warning-outlined-hover-border: var(--hope-colors-warning-400);
+  --hope-colors-warning-outlined-active-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-outlined-active-bg: var(--hope-colors-warning-100);
+  --hope-colors-warning-outlined-active-border: var(--hope-colors-warning-400);
+  --hope-colors-warning-outlined-disabled-text: var(--hope-colors-neutral-100);
+  --hope-colors-warning-outlined-disabled-bg: transparent;
+  --hope-colors-warning-outlined-disabled-border: var(--hope-colors-neutral-100);
 
   // global variant - plain
-  --hope-colors-warning-plain-text: var(--hope-colors-);
-  --hope-colors-warning-plain-bg: var(--hope-colors-);
-  --hope-colors-warning-plain-border: var(--hope-colors-);
-  --hope-colors-warning-plain-hover-text: var(--hope-colors-);
-  --hope-colors-warning-plain-hover-bg: var(--hope-colors-);
-  --hope-colors-warning-plain-hover-border: var(--hope-colors-);
-  --hope-colors-warning-plain-active-text: var(--hope-colors-);
-  --hope-colors-warning-plain-active-bg: var(--hope-colors-);
-  --hope-colors-warning-plain-active-border: var(--hope-colors-);
-  --hope-colors-warning-plain-disabled-text: var(--hope-colors-);
-  --hope-colors-warning-plain-disabled-bg: var(--hope-colors-);
-  --hope-colors-warning-plain-disabled-border: var(--hope-colors-);
+  --hope-colors-warning-plain-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-plain-bg: transparent;
+  --hope-colors-warning-plain-border: transparent;
+  --hope-colors-warning-plain-hover-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-plain-hover-bg: var(--hope-colors-warning-50);
+  --hope-colors-warning-plain-hover-border: var(--hope-colors-warning-50);
+  --hope-colors-warning-plain-active-text: var(--hope-colors-warning-900);
+  --hope-colors-warning-plain-active-bg: var(--hope-colors-warning-100);
+  --hope-colors-warning-plain-active-border: var(--hope-colors-warning-100);
+  --hope-colors-warning-plain-disabled-text: var(--hope-colors-neutral-200);
+  --hope-colors-warning-plain-disabled-bg: transparent;
+  --hope-colors-warning-plain-disabled-border: transparent;
 
   // global variant - override text
-  --hope-colors-warning-override-text-primary: var(--hope-colors-);
-  --hope-colors-warning-override-text-secondary: var(--hope-colors-);
-  --hope-colors-warning-override-text-tertiary: var(--hope-colors-);
+  --hope-colors-warning-override-text-primary: var(--hope-colors-warning-700);
+  --hope-colors-warning-override-text-secondary: var(--hope-colors-warning-500);
+  --hope-colors-warning-override-text-tertiary: var(--hope-colors-warning-400);
 
   /* -------------------------------------------------------------------------------------------------
    * Danger color (Red vivid)
@@ -425,65 +425,65 @@
   --hope-colors-danger-dark-channel: 97 3 22; // 900
 
   // global variant - solid
-  --hope-colors-danger-solid-text: var(--hope-colors-);
-  --hope-colors-danger-solid-bg: var(--hope-colors-);
-  --hope-colors-danger-solid-border: var(--hope-colors-);
-  --hope-colors-danger-solid-hover-text: var(--hope-colors-);
-  --hope-colors-danger-solid-hover-bg: var(--hope-colors-);
-  --hope-colors-danger-solid-hover-border: var(--hope-colors-);
-  --hope-colors-danger-solid-active-text: var(--hope-colors-);
-  --hope-colors-danger-solid-active-bg: var(--hope-colors-);
-  --hope-colors-danger-solid-active-border: var(--hope-colors-);
-  --hope-colors-danger-solid-disabled-text: var(--hope-colors-);
-  --hope-colors-danger-solid-disabled-bg: var(--hope-colors-);
-  --hope-colors-danger-solid-disabled-border: var(--hope-colors-);
+  --hope-colors-danger-solid-text: #fff;
+  --hope-colors-danger-solid-bg: var(--hope-colors-danger-500);
+  --hope-colors-danger-solid-border: var(--hope-colors-danger-500);
+  --hope-colors-danger-solid-hover-text: #fff;
+  --hope-colors-danger-solid-hover-bg: var(--hope-colors-danger-600);
+  --hope-colors-danger-solid-hover-border: var(--hope-colors-danger-600);
+  --hope-colors-danger-solid-active-text: #fff;
+  --hope-colors-danger-solid-active-bg: var(--hope-colors-danger-700);
+  --hope-colors-danger-solid-active-border: var(--hope-colors-danger-700);
+  --hope-colors-danger-solid-disabled-text: #fff;
+  --hope-colors-danger-solid-disabled-bg: var(--hope-colors-neutral-200);
+  --hope-colors-danger-solid-disabled-border: var(--hope-colors-neutral-200);
 
   // global variant - soft
-  --hope-colors-danger-soft-text: var(--hope-colors-);
-  --hope-colors-danger-soft-bg: var(--hope-colors-);
-  --hope-colors-danger-soft-border: var(--hope-colors-);
-  --hope-colors-danger-soft-hover-text: var(--hope-colors-);
-  --hope-colors-danger-soft-hover-bg: var(--hope-colors-);
-  --hope-colors-danger-soft-hover-border: var(--hope-colors-);
-  --hope-colors-danger-soft-active-text: var(--hope-colors-);
-  --hope-colors-danger-soft-active-bg: var(--hope-colors-);
-  --hope-colors-danger-soft-active-border: var(--hope-colors-);
-  --hope-colors-danger-soft-disabled-text: var(--hope-colors-);
-  --hope-colors-danger-soft-disabled-bg: var(--hope-colors-);
-  --hope-colors-danger-soft-disabled-border: var(--hope-colors-);
+  --hope-colors-danger-soft-text: var(--hope-colors-danger-700);
+  --hope-colors-danger-soft-bg: var(--hope-colors-danger-50);
+  --hope-colors-danger-soft-border: var(--hope-colors-danger-50);
+  --hope-colors-danger-soft-hover-text: var(--hope-colors-danger-700);
+  --hope-colors-danger-soft-hover-bg: var(--hope-colors-danger-100);
+  --hope-colors-danger-soft-hover-border: var(--hope-colors-danger-100);
+  --hope-colors-danger-soft-active-text: var(--hope-colors-danger-700);
+  --hope-colors-danger-soft-active-bg: var(--hope-colors-danger-200);
+  --hope-colors-danger-soft-active-border: var(--hope-colors-danger-200);
+  --hope-colors-danger-soft-disabled-text: var(--hope-colors-neutral-300);
+  --hope-colors-danger-soft-disabled-bg: var(--hope-colors-neutral-50);
+  --hope-colors-danger-soft-disabled-border: var(--hope-colors-neutral-50);
 
   // global variant - outlined
-  --hope-colors-danger-outlined-text: var(--hope-colors-);
-  --hope-colors-danger-outlined-bg: var(--hope-colors-);
-  --hope-colors-danger-outlined-border: var(--hope-colors-);
-  --hope-colors-danger-outlined-hover-text: var(--hope-colors-);
-  --hope-colors-danger-outlined-hover-bg: var(--hope-colors-);
-  --hope-colors-danger-outlined-hover-border: var(--hope-colors-);
-  --hope-colors-danger-outlined-active-text: var(--hope-colors-);
-  --hope-colors-danger-outlined-active-bg: var(--hope-colors-);
-  --hope-colors-danger-outlined-active-border: var(--hope-colors-);
-  --hope-colors-danger-outlined-disabled-text: var(--hope-colors-);
-  --hope-colors-danger-outlined-disabled-bg: var(--hope-colors-);
-  --hope-colors-danger-outlined-disabled-border: var(--hope-colors-);
+  --hope-colors-danger-outlined-text: var(--hope-colors-danger-600);
+  --hope-colors-danger-outlined-bg: transparent;
+  --hope-colors-danger-outlined-border: var(--hope-colors-danger-200);
+  --hope-colors-danger-outlined-hover-text: var(--hope-colors-danger-600);
+  --hope-colors-danger-outlined-hover-bg: var(--hope-colors-danger-50);
+  --hope-colors-danger-outlined-hover-border: var(--hope-colors-danger-300);
+  --hope-colors-danger-outlined-active-text: var(--hope-colors-danger-600);
+  --hope-colors-danger-outlined-active-bg: var(--hope-colors-danger-100);
+  --hope-colors-danger-outlined-active-border: var(--hope-colors-danger-300);
+  --hope-colors-danger-outlined-disabled-text: var(--hope-colors-neutral-100);
+  --hope-colors-danger-outlined-disabled-bg: transparent;
+  --hope-colors-danger-outlined-disabled-border: var(--hope-colors-neutral-100);
 
   // global variant - plain
-  --hope-colors-danger-plain-text: var(--hope-colors-);
-  --hope-colors-danger-plain-bg: var(--hope-colors-);
-  --hope-colors-danger-plain-border: var(--hope-colors-);
-  --hope-colors-danger-plain-hover-text: var(--hope-colors-);
-  --hope-colors-danger-plain-hover-bg: var(--hope-colors-);
-  --hope-colors-danger-plain-hover-border: var(--hope-colors-);
-  --hope-colors-danger-plain-active-text: var(--hope-colors-);
-  --hope-colors-danger-plain-active-bg: var(--hope-colors-);
-  --hope-colors-danger-plain-active-border: var(--hope-colors-);
-  --hope-colors-danger-plain-disabled-text: var(--hope-colors-);
-  --hope-colors-danger-plain-disabled-bg: var(--hope-colors-);
-  --hope-colors-danger-plain-disabled-border: var(--hope-colors-);
+  --hope-colors-danger-plain-text: var(--hope-colors-danger-700);
+  --hope-colors-danger-plain-bg: transparent;
+  --hope-colors-danger-plain-border: transparent;
+  --hope-colors-danger-plain-hover-text: var(--hope-colors-danger-700);
+  --hope-colors-danger-plain-hover-bg: var(--hope-colors-danger-50);
+  --hope-colors-danger-plain-hover-border: var(--hope-colors-danger-50);
+  --hope-colors-danger-plain-active-text: var(--hope-colors-danger-700);
+  --hope-colors-danger-plain-active-bg: var(--hope-colors-danger-100);
+  --hope-colors-danger-plain-active-border: var(--hope-colors-danger-100);
+  --hope-colors-danger-plain-disabled-text: var(--hope-colors-neutral-200);
+  --hope-colors-danger-plain-disabled-bg: transparent;
+  --hope-colors-danger-plain-disabled-border: transparent;
 
   // global variant - override text
-  --hope-colors-danger-override-text-primary: var(--hope-colors-);
-  --hope-colors-danger-override-text-secondary: var(--hope-colors-);
-  --hope-colors-danger-override-text-tertiary: var(--hope-colors-);
+  --hope-colors-danger-override-text-primary: var(--hope-colors-danger-700);
+  --hope-colors-danger-override-text-secondary: var(--hope-colors-danger-500);
+  --hope-colors-danger-override-text-tertiary: var(--hope-colors-danger-400);
 
   /* -------------------------------------------------------------------------------------------------
   * Others
