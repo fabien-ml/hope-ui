@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@emotion/css": "11.9.0",
-    "@hope-ui/core": "workspace:*",
+    "@hope-ui/solid": "workspace:*",
     "solid-js": "1.4.7"
   }
 }

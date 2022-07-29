@@ -19,10 +19,9 @@
     "ci:version": "changeset version && pnpm i --no-frozen-lockfile && git add .",
     "clean": "turbo run clean && rm -rf node_modules",
     "commit": "git-cz",
-    "dev": "pnpm -F @hope-ui/core dev",
+    "dev": "pnpm -F @hope-ui/solid dev",
     "format": "prettier . --write --ignore-path .gitignore && git update-index --again",
     "prepare": "husky install",
-    "storybook": "pnpm -F @hope-ui/core storybook",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck"
   },
@@ -44,6 +43,8 @@
   "devDependencies": {
     "@babel/core": "7.18.6",
     "@babel/preset-env": "7.18.6",
+    "@chakra-ui/styled-system": "2.2.3",
+    "@chakra-ui/utils": "2.0.4",
     "@changesets/cli": "2.23.1",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",

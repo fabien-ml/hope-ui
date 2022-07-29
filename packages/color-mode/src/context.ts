@@ -1,0 +1,38 @@
+import { createContext, createMemo, useContext } from "solid-js";
+
+import { ColorModeContextType } from "./types";
+
+export const ColorModeContext = createContext<ColorModeContextType>();
+
+/**
+ * Primitive that reads from `ColorModeProvider` context,
+ * Returns the color mode and function to toggle it.
+ */
+export function useColorMode() {
+  const context = useContext(ColorModeContext);
+
+  if (context === undefined) {
+    throw new Error("[hope-ui]: useColorMode must be used within a ColorModeProvider");
+  }
+
+  return context;
+}
+
+/**
+ * Change value based on color mode.
+ *
+ * @param light the light mode value
+ * @param dark the dark mode value
+ * @return A memoized value based on the color mode.
+ *
+ * @example
+ *
+ * ```js
+ * const Icon = useColorModeValue(MoonIcon, SunIcon)
+ * ```
+ */
+export function useColorModeValue<TLight = unknown, TDark = unknown>(light: TLight, dark: TDark) {
+  const { colorMode } = useColorMode();
+
+  return createMemo(() => (colorMode() === "dark" ? dark : light));
+}
