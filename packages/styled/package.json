@@ -2,7 +2,7 @@
   "name": "@hope-ui/styled",
   "version": "0.0.0",
   "private": false,
-  "description": "Hope UI styled primitives",
+  "description": "Hope UI styled-components API built on top of emotion",
   "keywords": [
     "solid",
     "solidjs",
@@ -46,7 +46,18 @@
     "test": "jest",
     "typecheck": "tsc --noEmit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@emotion/cache": "11.9.3",
+    "@emotion/serialize": "1.0.4",
+    "@emotion/utils": "1.1.0",
+    "@emotion/weak-memoize": "0.2.5",
+    "clsx": "1.2.1",
+    "lodash.camelcase": "4.3.0",
+    "lodash.memoize": "4.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash.memoize": "4.1.7"
+  },
   "peerDependencies": {
     "solid-js": "^1.4.7"
   },

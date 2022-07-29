@@ -48,6 +48,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
+    "@emotion/css": "^11.9.0",
     "solid-js": "^1.4.7"
   },
   "publishConfig": {
